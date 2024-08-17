@@ -1,0 +1,80 @@
+.contact {
+    display: flex;
+    // align-items: center;
+    // justify-content: center;
+
+    .left-contact {
+        flex: 1;
+
+        img {
+            height: 600px;
+            width: 750px;
+            margin: 25px;
+        }
+    }
+
+    .right-contact {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        h2 {
+            font-size: 40px;
+            font-family: "Matemasie", sans-serif;
+            margin-bottom: 20px;
+            color: #270722;
+            text-align: center;
+            transition: 0.2s;
+        }
+
+        form {
+            width: 70%;
+            height: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+
+            input {
+                width: 300px;
+                height: 30px;
+                font-size: 16px;
+                font-family: "Poppins", sans-serif;
+            }
+
+            textarea {
+                width: 300px;
+                height: 200px;
+                font-size: 16px;
+                font-family: "Poppins", sans-serif;
+            }
+
+            button {
+                width: 200px;
+                height: 30px;
+                font-size: 16px;
+                font-family: "Poppins", sans-serif;
+                font-weight: 700;
+                color: white;
+                background-color: crimson;
+                border: none;
+                border-radius: 20px;
+                cursor: pointer;
+
+                &:focus {
+                    outline: none;
+                }
+            }
+
+            span {
+                font-size: 14px;
+                font-family: "Poppins", sans-serif;
+                font-weight: 700;
+                color: green;
+            }
+        }
+
+    }
+}

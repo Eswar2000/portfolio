@@ -75,8 +75,8 @@ export default function Project() {
               {
                 project_list && project_list.map((project, index) => {
                   return (
-                    <div className="project-container">
-                      <div className="project" key={index}>
+                    <div className="project-container" key={index}>
+                      <div className="project">
                         <div className="project-left-container">
                           <div className="project-image">
                             <img src={project.image} alt={project.name}/>
