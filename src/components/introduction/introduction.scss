@@ -1,0 +1,62 @@
+.introduction {
+    display: flex;
+
+    .left-intro {
+        flex: 0.5;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .blob {
+            background-image: url('./../../../public/assets/Eswar_Casual.jpg');
+            height: 600px;
+            width: 600px;
+            background-position: center;
+            background-size: cover;
+            border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+            animation: blob 7s ease-in-out infinite;
+        }
+
+        @keyframes blob {
+            0% {
+                border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+            }
+            50% {
+                border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+            }
+            100% {
+                border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+            }
+        }
+    }
+
+
+    .right-intro {
+        flex: 0.5;
+
+        .intro-right-container {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding-left: 50px;
+
+            #name-banner {
+                font-size: 125px;
+                font-family: "Matemasie", sans-serif;
+                color: crimson;
+            }
+
+            h2 {
+                font-size: 45px;
+                font-family: "Poppins", sans-serif;
+                
+                #activity-banner {
+                    color: crimson;
+                }
+
+            }
+        }
+    }
+}

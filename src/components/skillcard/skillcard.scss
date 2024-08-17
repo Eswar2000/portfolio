@@ -1,0 +1,60 @@
+.skill-card {
+    height: 500px;
+    width: 400px;
+    border-radius: 25px;
+    background-color: #11151C;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    transition: 0.2s;
+
+    .skill-head-container {
+        flex: 0.3;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+
+        .skill-head {
+            font-size: 40px;
+            font-family: "Matemasie", sans-serif;
+            text-align: center;
+            
+            color: #E6E8E6;
+        }
+    }
+
+    
+
+    .skill-list {
+        flex: 0.6;
+        margin: 10px;
+        
+        .skill-image {
+            margin: 7px 12px;
+            display: inline-block;
+
+
+            img {
+                width: 60px;
+                height: 80px;
+                border-radius: 50%;
+                margin: 2px;
+            }
+
+            h3 {
+                font-family: "Poppins", sans-serif;
+                font-size: 15px;
+                color: #E6E8E6;
+                // margin: 2px 4px;
+                text-align: center;
+            }
+            
+        }
+    }
+}
+
+.skill-card:hover {
+    transform: scale(0.95);
+    opacity: 0.9;
+}

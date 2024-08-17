@@ -1,0 +1,44 @@
+.topbar {
+    width: 100%;
+    height: 150px;
+    background-color: white;
+    position: fixed;
+
+    .container {
+        display: flex;
+        margin: 7px 20px;
+        align-items: center;
+        justify-content: space-between;
+
+        .left {
+            margin: 0px 75px;
+
+            .banner {
+                font-size: 30px;
+                font-family: "Matemasie", sans-serif;
+                color: #270722;
+                text-decoration: none;
+            }
+        }
+
+        .right {
+            margin: 0px 75px;
+
+            .nav-head {
+                font-size: 20px;
+                font-family: "Lilita One", sans-serif;
+                color: #270722;
+                font-weight: bolder;
+                text-decoration: none;
+                margin: 0px 20px;
+            }
+
+            .nav-head:hover {
+                opacity: 0.7;
+                cursor: pointer;
+            } 
+        }
+    }
+}
+
+

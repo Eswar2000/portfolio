@@ -1,0 +1,23 @@
+.experience {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    .section-header {
+        font-size: 30px;
+        font-family: "Matemasie", sans-serif;
+        color: #270722;
+        text-align: center;
+        transition: 0.2s;
+    }
+
+    .section-header:hover {
+        transform: scale(1.5);
+    }
+
+    .experience-container {
+        display: flex;
+        flex-direction: column;
+    }
+}
