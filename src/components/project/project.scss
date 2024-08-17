@@ -1,0 +1,172 @@
+.projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    align-items: center;
+    position: relative;
+
+    .section-header {
+        position: absolute;
+        top: 10px;
+        font-size: 30px;
+        font-family: "Matemasie", sans-serif;
+        color: #270722;
+        text-align: center;
+        transition: 0.2s;
+    }
+
+    .section-header:hover {
+        transform: scale(1.5);
+    }
+
+    .slider {
+        height: 450px;
+        display: flex;
+        position: absolute;
+        left: 0;
+
+        .project-container {
+            width: 100vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .project {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 900px;
+                height: 100%;
+                background-color: crimson;
+                border-radius: 20px;
+
+                .project-left-container {
+                    flex: 4;
+                    height: 95%;
+                    width: 80%;
+                    padding-left: 25px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+
+                    .project-image {
+                        margin-bottom: 25px;
+
+                        img {
+                            border-radius: 50%;
+                            opacity: 0.9;
+                        }
+                        
+                    }
+
+                    h2 {
+                        font-size: 30px;
+                        font-family: "Matemasie", sans-serif;
+                        text-align: center;
+                        color: white;
+                        letter-spacing: 1.2px;
+                    }
+                }
+
+                .project-right-container {
+                    flex: 8;
+                    height: 95%;
+                    width: 80%;
+                    margin: 10px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    // align-items: center;
+
+                    p {
+                        color: white;
+                        font-family: "Poppins", sans-serif;
+                        font-size: 16px;
+                        font-weight: 700;
+                        margin-bottom: 50px;
+                    }
+
+                    a {
+                        margin-left: 10px;
+                        color: white;
+                        font-family: "Poppins", sans-serif;
+                        font-size: 14px;
+                        font-weight: 700;
+                        text-decoration: none;
+                    }
+
+                    a:hover {
+                        cursor: pointer;
+                        opacity: 0.7;
+                    }
+
+                    h3 {
+                        margin-left: 10px;
+                        color: cornsilk;
+                        font-size: 10px;
+                        font-family: "Poppins", sans-serif;
+                    }
+
+                    .chip-list {
+                        margin-top: 30px;
+
+                        .skill-chip {
+                            display: inline-flex;
+                            height: 36px;
+                            background-color: white;
+                            border: none;
+                            outline: none;
+                            cursor: pointer;
+                            padding: 0;
+                            font-size: 14px;
+                            font-weight: 600;
+                            color: #4A4A48;
+                            font-family: "Poppins", sans-serif;
+                            white-space: nowrap;
+                            align-items: center;
+                            vertical-align: center;
+                            justify-content: center;
+                            text-decoration: none;
+                            border-radius: 16px;
+                            transition: 0.2s;
+                            margin: 6px;
+
+                            .chip-content{
+                                color: inherit;
+                                display: flex;
+                                align-items: center;
+                                user-select: none;
+                                white-space: nowrap;
+                                padding-left: 12px;
+                                padding-right: 12px;
+                            }
+                        }
+
+                        .skill-chip:hover {
+                            transform: scale(0.9);
+                            opacity: 0.9;
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+
+    .arrow {
+        height: 75px;
+        cursor: pointer;
+        position: absolute;
+        opacity: 0.7;
+
+        &.left {
+            left: 100px;
+            transform: rotateY(180deg);
+        }
+
+        &.right {
+            right: 100px;
+        }
+    }
+}

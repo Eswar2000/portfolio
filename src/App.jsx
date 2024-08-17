@@ -3,6 +3,7 @@ import Contact from './components/contact/Contact';
 import Experience from './components/experience/Experience';
 import Introduction from './components/introduction/Introduction';
 import Skills from './components/skills/Skills';
+import Project from './components/project/Project';
 import './app.scss';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Introduction />
         <Skills />
         <Experience />
+        <Project />
         <Contact />
       </div>
     </div>
