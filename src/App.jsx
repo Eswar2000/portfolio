@@ -1,23 +1,19 @@
-import Topbar from './components/topbar/Topbar';
-import Contact from './components/contact/Contact';
-import Experience from './components/experience/Experience';
-import Introduction from './components/introduction/Introduction';
-import Skills from './components/skills/Skills';
-import Project from './components/project/Project';
+import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import './app.scss';
+import Topbar from './components/topbar/Topbar';
+import Home from './components/home/Home';
+import Personal from './components/personal/Personal';
 
 function App() {
   return (
     <div className="app">
       <Topbar />
-      
-      <div className="sections">
-        <Introduction />
-        <Skills />
-        <Experience />
-        <Project />
-        <Contact />
-      </div>
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<Home />}/>
+          <Route path='/about' element={<Personal />}/>
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }

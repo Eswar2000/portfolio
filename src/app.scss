@@ -6,25 +6,4 @@
 
 .app {
     height: 100vh;
-
-    .sections {
-        width: 100%;
-        height: calc(100vh - 60px);
-        background-color: white;
-        position: relative;
-        top: 60px;
-        scroll-snap-type: y mandatory;
-        scroll-behavior: smooth;
-        scrollbar-width: none;
-        &::-webkit-scrollbar {
-            display: none;
-        }
-
-
-        > *{
-            width: 100vw;
-            height: calc(100vh - 60px);
-            scroll-snap-align: start;
-        }
-    }
 }
