@@ -1,0 +1,14 @@
+li {
+    margin-left: 50px;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    padding: 7px;
+    cursor: pointer;
+
+    &.active {
+        background-color: #0B132B;
+        color: white;
+        border-radius: 10px;
+        
+    }
+}

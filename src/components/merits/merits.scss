@@ -1,0 +1,88 @@
+.merits {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .section-header {
+        font-size: 30px;
+        font-family: "Matemasie", sans-serif;
+        margin-bottom: 30px;
+        color: #270722;
+        text-align: center;
+        transition: 0.2s;
+    }
+
+    ul {
+        display: flex;
+        margin: 10px;
+        padding: 0;
+        list-style-type: none;
+    }
+
+    .merit-container {
+        width: 70%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        .merit-item {
+            width: 225px;
+            height: 150px;
+            border-radius: 20px;
+            border: 1px solid lightgrey;
+            margin: 10px 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            position: relative;
+            transition: all 0.2s ease;
+            
+            .merit-message {
+                display: flex;
+                flex-direction: column;
+                justify-items: center;
+                align-items: center;
+                position: absolute;
+                font-family: "Poppins", sans-serif;
+
+                h3 {
+                    text-align: center;
+                    line-height: 90%;
+                    overflow-y: hidden;
+                    font-size: 20px;
+                    font-weight: 700;
+                    margin-bottom: 5px;
+                }
+    
+                p {
+                    text-align: center;
+                    line-height: 90%;
+                    overflow-y: hidden;
+                    font-size: 12px;
+                    font-weight: 500;
+                }
+            }
+
+            img {
+                background-color: white;
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+                z-index: 1;
+            }
+
+            &:hover {
+                background-color: #0B132B;
+
+                img {
+                    opacity: 0.2;
+                    z-index: 0;
+                }
+            }
+        }
+    }
+}

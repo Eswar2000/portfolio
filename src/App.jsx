@@ -2,7 +2,7 @@ import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import './app.scss';
 import Topbar from './components/topbar/Topbar';
 import Home from './components/home/Home';
-import Personal from './components/personal/Personal';
+import About from './components/about/About';
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<Home />}/>
-          <Route path='/about' element={<Personal />}/>
+          <Route path='/about' element={<About />}/>
         </Routes>
       </BrowserRouter>
     </div>
