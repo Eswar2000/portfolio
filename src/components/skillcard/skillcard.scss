@@ -1,3 +1,5 @@
+@import '../../global.scss';
+
 .skill-card {
     height: 500px;
     width: 400px;
@@ -8,37 +10,56 @@
     margin: 5px;
     transition: 0.2s;
 
+    @include mobile {
+        width: 98%;
+        flex-direction: row;
+    }
+
     .skill-head-container {
         flex: 0.3;
         display: flex;
         margin-left: auto;
         margin-right: auto;
         align-items: center;
+        justify-content: center;
 
         .skill-head {
             font-size: 40px;
             font-family: "Lilita One", sans-serif;
             text-align: center;
             color: #E6E8E6;
+
+            @include mobile {
+                font-size: 15px;
+            }
         }
     }
 
     
 
     .skill-list {
-        flex: 0.6;
+        flex: 0.7;
         margin: 10px;
         
         .skill-image {
             margin: 7px 12px;
             display: inline-block;
 
+            @include mobile {
+                margin: 3px;
+            }
 
             .skill-img {
                 width: 60px;
                 height: 80px;
                 border-radius: 50%;
                 margin: 2px;
+
+                @include mobile {
+                    width: 42px;
+                    height: 42px;
+                    margin: 0;
+                }
             }
 
             h3 {
@@ -46,6 +67,10 @@
                 font-size: 15px;
                 color: #E6E8E6;
                 text-align: center;
+
+                @include mobile {
+                    display: none;
+                }
             }
             
         }
