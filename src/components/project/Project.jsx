@@ -28,7 +28,7 @@ export default function Project() {
       "image": "assets/maze-game-small.png",
       "git_url": "https://github.com/Eswar2000/maze-game-racket",
       "description": "A coursework project developed using Racket to demonstrate various SICP concepts through an engaging maze game. Players navigate a protagonist from the source to the destination, overcoming obstacles and challenges to earn points. Successfully completing each level unlocks new, more complex mazes, with increasing difficulty.",
-      "skills": ["Racket", "Structure and Interpretation of Computer Programming"]
+      "skills": ["Racket", "SICP"]
     },
     {
       "name": "Higher Studies Portal",
@@ -44,7 +44,7 @@ export default function Project() {
       "image": "assets/reach-out-small.png",
       "git_url": "https://github.com/Eswar2000/reach-out",
       "description": "A web application developed with Flask, simulating a social media platform to illustrate graph theory concepts. In this model, each user is represented as a vertex, and relationships between users are depicted as edges. This application effectively demonstrates various applications and use-cases of graph structures in a practical context.",
-      "skills": ["Python", "Flask", "SQL Lite", "HTML", "Jinja Template", "Data Structures", "Algorithms", "Graphs", "Prim's MST algorithm", "Floyd Warshall's shortest path algorithm"]
+      "skills": ["Python", "Flask", "SQL Lite", "HTML", "Jinja Template", "Data Structures", "Algorithms", "Graphs", "Prims MST algorithm", "Floyd Warshall shortest path algorithm"]
     },
     {
       "name": "Smart Healthcare System",
@@ -59,8 +59,8 @@ export default function Project() {
       "completion": "Febraury 2021",
       "image": "assets/graph-simulator-small.png",
       "git_url": "https://github.com/Eswar2000/graph-vpython",
-      "description": "A dynamic project showcasing the graphical representation of data structures, specifically graphs. Users can interactively build a graph by selecting vertices and connecting them with edges on a 2D canvas. Once constructed, the tool provides animated simulations of Dijkstra's algorithm for finding the shortest path between two points and Prim's algorithm for generating the minimum spanning tree.",
-      "skills": ["Python", "VPython", "Data Structures", "Algorithms", "Graphs", "Prim's MST algorithm", "Dijkstra's shortest path algorithm"]
+      "description": "A dynamic project showcasing the graphical representation of data structures, specifically graphs. Users can interactively build a graph by selecting vertices and connecting them with edges on a 2D canvas. Once constructed, the tool provides animated simulations of Dijkstra's algorithm for finding the shortest path between two points and Prims algorithm for generating the minimum spanning tree.",
+      "skills": ["Python", "VPython", "Data Structures", "Algorithms", "Graphs", "Prims MST algorithm", "Dijkstra's shortest path algorithm"]
     }
   ]
 

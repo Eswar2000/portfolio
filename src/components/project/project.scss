@@ -1,3 +1,5 @@
+@import '../../global.scss';
+
 .projects {
     display: flex;
     flex-direction: column;
@@ -12,6 +14,11 @@
         font-family: "Lilita One", sans-serif;
         color: #270722;
         text-align: center;
+
+        @include mobile {
+            font-size: 20px;
+            top: 50px;
+        }
     }
 
     .slider {
@@ -19,6 +26,11 @@
         display: flex;
         position: absolute;
         left: 0;
+
+        @include mobile {
+            height: 100vh;
+            justify-content: center;
+        }
 
         .project-container {
             width: 100vw;
@@ -36,6 +48,11 @@
                 background-color: #0B132B;
                 border-radius: 20px;
 
+                @include mobile {
+                    width: 90%;
+                    height: 400px;
+                }
+
                 .project-left-container {
                     flex: 4;
                     height: 95%;
@@ -46,6 +63,10 @@
                     justify-content: center;
                     align-items: center;
 
+                    @include mobile {
+                        padding-left: 12px;
+                    }
+
                     .project-image {
                         margin-bottom: 25px;
 
@@ -54,6 +75,11 @@
                             opacity: 0.9;
                         }
                         
+                        @include mobile {
+                            transform: scale(0.4, 0.4);
+                            object-fit: cover;
+                            margin-bottom: 0;
+                        }
                     }
 
                     h2 {
@@ -62,6 +88,10 @@
                         text-align: center;
                         color: white;
                         letter-spacing: 1.2px;
+
+                        @include mobile {
+                            font-size: 15px;
+                        }
                     }
                 }
 
@@ -72,8 +102,7 @@
                     margin: 10px;
                     display: flex;
                     flex-direction: column;
-                    justify-content: center;
-                    // align-items: center;
+                    justify-content: center;  
 
                     p {
                         color: white;
@@ -81,6 +110,11 @@
                         font-size: 16px;
                         font-weight: 700;
                         margin-bottom: 50px;
+
+                        @include mobile {
+                            font-size: 10px;
+                            margin-bottom: 10px;
+                        }
                     }
 
                     a {
@@ -90,6 +124,11 @@
                         font-size: 14px;
                         font-weight: 700;
                         text-decoration: none;
+
+                        @include mobile {
+                            font-size: 10px;
+                            margin-left: 5px;
+                        }
                     }
 
                     a:hover {
@@ -102,10 +141,18 @@
                         color: cornsilk;
                         font-size: 10px;
                         font-family: "Poppins", sans-serif;
+
+                        @include mobile {
+                            display: none;
+                        }
                     }
 
                     .chip-list {
                         margin-top: 30px;
+
+                        @include mobile {
+                            margin-top: 10px;
+                        }
 
                         .skill-chip {
                             display: inline-flex;
@@ -128,6 +175,12 @@
                             transition: 0.2s;
                             margin: 6px;
 
+                            @include mobile {
+                                height: 16px;
+                                font-size: 10px;
+                                margin: 2px;
+                            }
+
                             .chip-content{
                                 color: inherit;
                                 display: flex;
@@ -136,6 +189,11 @@
                                 white-space: nowrap;
                                 padding-left: 12px;
                                 padding-right: 12px;
+
+                                @include mobile {
+                                    padding-left: 3px;
+                                    padding-right: 3px;
+                                }
                             }
                         }
 
@@ -159,14 +217,26 @@
         cursor: pointer;
         position: absolute;
         opacity: 0.7;
+        
+        @include mobile {
+            height: 15px;
+        }
 
         &.left {
             left: 100px;
             transform: rotateY(180deg);
+
+            @include mobile {
+                left: 3px;
+            }
         }
 
         &.right {
             right: 100px;
+
+            @include mobile {
+                right: 3px;
+            }
         }
     }
 }
