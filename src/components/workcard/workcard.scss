@@ -1,3 +1,5 @@
+@import '../../global.scss';
+
 .work-card {
     display: flex;
     width: 1400px;
@@ -7,6 +9,11 @@
     border-radius: 25px;
     transition: 0.2s;
 
+    @include mobile {
+        width: 90vw;
+        margin: 2px;
+    }
+
     .left-container {
         flex: 0.25;
 
@@ -15,43 +22,81 @@
             width: 300px;
             margin: 8px 10px;
             border-radius: 25px;
+
+            @include mobile {
+                height: 150px;
+                width: 70px;
+                border-radius: 50%;
+                margin: 5px;
+            }
         }
     }
 
     .right-container {
         flex: 0.75;
         font-family: "Poppins", sans-serif;
+        display: relative;
 
         .work-head {
             margin-top: 8px;
+            @include mobile {
+                margin-top: 5px;
+            }
+
             h2 {
                 font-size: 18px;
                 font-weight: 700;
                 color: white;
+
+                @include mobile {
+                    font-size: 12px;
+                    margin-left: 10px;
+                    position: absolute;
+                }
 
                 span {
                     margin-left: 10px;
                     font-size: 14px;
                     font-weight: 400;
                     color: #858DAD;
+
+                    @include mobile {
+                        display: block;
+                        font-size: 10px;
+                        margin-left: 0;
+                    }
                 }
             }
         }
 
         .work-items {
             margin-top: 8px;
+            @include mobile {
+                margin-top: 35px;
+                width: 100%;
+                height: 70%;
+            }
 
             ul {
                 .work-item {
                     color: white;
                     letter-spacing: 0.8;
                     font-size: 14px;
+
+                    @include mobile {
+                        font-size: 10px;
+                    }
                 }
 
                 .work-item:before {
                     content: "\2605";
                     padding-right: 8px;
                     color: crimson;
+
+                    @include mobile {
+                        font-size: 10px;
+                        padding: 5px;
+                    }
                 }
             }
         }
