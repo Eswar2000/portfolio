@@ -1,20 +1,55 @@
-.sections {
-    width: 100%;
-    height: calc(100vh - 60px);
-    background-color: white;
-    position: relative;
-    top: 60px;
-    scroll-snap-type: y mandatory;
-    scroll-behavior: smooth;
-    scrollbar-width: none;
-    &::-webkit-scrollbar {
-        display: none;
+.personal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .personal-left {
+        flex: 0.5;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .blob {
+            background-image: url('./../../../public/assets/Eswar_Casual_2.jpg');
+            height: 600px;
+            width: 600px;
+            background-position: center;
+            background-size: cover;
+            border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+            animation: blob 7s ease-in-out infinite;
+        }
+
     }
 
+    .personal-right {
+        flex: 0.5;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
 
-    > *{
-        width: 100vw;
-        height: calc(100vh - 60px);
-        scroll-snap-align: start;
+        .section-header {
+            font-size: 40px;
+            margin-bottom: 20px;
+            font-family: "Lilita One", sans-serif;
+            text-align: center;
+            color: #0B132B;
+        }
+
+        .about-me {
+            font-size: 16px;
+            font-family: "Poppins", sans-serif;
+            font-weight: 800;
+            padding: 5px 10px;
+            margin: 2px 10px;
+            transition: 0.2s;
+        }
+
+        .about-me:hover {
+            opacity: 0.8;
+            background-color: #F2F7F2;
+            border-radius: 20px;
+        }
+        
     }
 }
