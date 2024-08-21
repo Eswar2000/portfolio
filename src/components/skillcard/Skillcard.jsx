@@ -14,7 +14,7 @@ export default function Skillcard({domain, skill_list}) {
             skill_list && skill_list.map((skill, index) => {
               return (
                 <div className="skill-image" key={index}>
-                    <img src={skill.image} alt={skill.name}/>
+                    <img className='skill-img' src={skill.image} alt={skill.name}/>
                     <h3>{skill.name}</h3>
                 </div>
               )

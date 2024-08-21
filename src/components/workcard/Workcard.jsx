@@ -4,7 +4,7 @@ export default function Workcard({company, role, duration, image_path, work_list
   return (
     <div className='work-card'>
       <div className="left-container">
-        <img src={image_path} alt={company}/>
+        <img className='work-img' src={image_path} alt={company}/>
       </div>
       <div className="right-container">
         <div className='work-head'>

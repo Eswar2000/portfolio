@@ -79,7 +79,7 @@ export default function Project() {
                       <div className="project">
                         <div className="project-left-container">
                           <div className="project-image">
-                            <img src={project.image} alt={project.name}/>
+                            <img className='project-img' src={project.image} alt={project.name}/>
                           </div>
                           <h2>{project.name}</h2>
                         </div>
