@@ -8,8 +8,8 @@ export default function Topbar() {
                 <span className='banner'>Portfolio</span>
             </div>
             <div className="right">
-                <a href='/' className='nav-head'>Home</a>
-                <a href='/#/about' className='nav-head'>About</a>
+                <a href='#/' className='nav-head'>Home</a>
+                <a href='#/about' className='nav-head'>About</a>
             </div>
         </div>
     </div>
