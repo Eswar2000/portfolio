@@ -1,15 +1,30 @@
+@import '../../global.scss';
+
 .contact {
     display: flex;
     // align-items: center;
     // justify-content: center;
 
+    @include mobile {
+        flex-direction: column;
+    }
+
     .left-contact {
         flex: 1;
 
-        img {
+        @include mobile {
+            flex: 4;
+        }
+
+        .contact-img {
             height: 600px;
             width: 750px;
             margin: 25px;
+
+            @include mobile {
+                height: 200px;
+                width: 300px;
+            }
         }
     }
 
@@ -20,6 +35,10 @@
         justify-content: center;
         align-items: center;
 
+        @include mobile {
+            flex: 8;
+        }
+
         h2 {
             font-size: 40px;
             font-family: "Lilita One", sans-serif;
@@ -27,6 +46,10 @@
             color: #270722;
             text-align: center;
             transition: 0.2s;
+
+            @include mobile {
+                font-size: 20px;
+            }
         }
 
         form {
@@ -42,6 +65,11 @@
                 height: 30px;
                 font-size: 16px;
                 font-family: "Poppins", sans-serif;
+
+                @include mobile {
+                    width: 200px;
+                    margin: 5px;
+                }
             }
 
             textarea {
@@ -49,6 +77,12 @@
                 height: 200px;
                 font-size: 16px;
                 font-family: "Poppins", sans-serif;
+
+                @include mobile {
+                    width: 200px;
+                    height: 100px;
+                    margin: 5px;
+                }
             }
 
             button {
