@@ -5,8 +5,8 @@
     align-items: center;
 
     .section-header {
-        font-size: 30px;
-        font-family: "Matemasie", sans-serif;
+        font-size: 40px;
+        font-family: "Lilita One", sans-serif;
         margin-bottom: 30px;
         color: #270722;
         text-align: center;
@@ -21,7 +21,7 @@
     }
 
     .merit-container {
-        width: 70%;
+        width: 80%;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -60,16 +60,16 @@
     
                 p {
                     text-align: center;
-                    line-height: 90%;
+                    line-height: 120%;
                     overflow-y: hidden;
                     font-size: 12px;
                     font-weight: 500;
                 }
             }
 
-            img {
+            .merit-type-image {
                 background-color: white;
-                width: 100%;
+                width: 120%;
                 height: 100%;
                 object-fit: contain;
                 z-index: 1;

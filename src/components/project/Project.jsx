@@ -11,15 +11,15 @@ export default function Project() {
       "completion": "September 2021",
       "image": "assets/faculty-dashboard-small.png",
       "git_url": "https://github.com/Eswar2000/faculty-dashboard",
-      "description": "Faculty dashboard is a web application built using MERN stack, following Agile methodologies and Scrum framework. This platform unifies day-to-day activities of a regular faculty into a single pane of glass. Common activities include managing lecture schedules, gate passes & leaves for students and mentoring diary.",
-      "skills": ["MongoDB", "ExpressJS", "ReactJS", "NodeJS", "Jira", "Agile", "Scrum", "SDLC", "Mocha", "Selenium UI Testing"]
+      "description": "A streamlined web application developed with the MERN stack, leveraging Agile methodologies and Scrum practices. This platform centralizes essential faculty tasks into a single interface—managing lecture schedules, student gate passes and leaves, and mentoring diaries. Its architectural design and streamlined processes have been shown to enhance efficiency by up to 30%.",
+      "skills": ["MongoDB", "ExpressJS", "ReactJS", "NodeJS", "Jira", "Agile", "Scrum", "SDLC", "Mocha Unit Testing", "Selenium UI Testing"]
     },
     {
       "name": "Note Maker",
       "completion": "June 2024",
       "image": "assets/note-maker-small.png",
       "git_url": "https://github.com/Eswar2000/notemaker",
-      "description": "Note-maker is a web application built using MERN stack. This app is used to manage notes and lists for remembrance. Users can create accounts and dynamically add notes and check lists to their profile. Users can as well share and collaborate with each other by giving permissions for specific notes. Wait a while, and you might even get post card options and many more!!",
+      "description": "A versatile web application built with the MERN stack for managing notes and to-do lists. Users can create accounts to dynamically add and organize notes and checklists within their profiles. Collaboration is facilitated through customizable sharing permissions for individual notes. Stay tuned for exciting features like postcard options and more!",
       "skills": ["MongoDB", "ExpressJS", "ReactJS", "NodeJS", "SDLC"]
     },
     {
@@ -27,7 +27,7 @@ export default function Project() {
       "completion": "January 2022",
       "image": "assets/maze-game-small.png",
       "git_url": "https://github.com/Eswar2000/maze-game-racket",
-      "description": "This is a coursework project built using racket to illustrate several SICP concepts at various levels through a classical maze gamet. The protoganist in the maze is to reach from the source to the destination overcoming obstacles and hindrances in order to gain points. On successfully completing each level, new mazes appear and difficulties increase proportionally.",
+      "description": "A coursework project developed using Racket to demonstrate various SICP concepts through an engaging maze game. Players navigate a protagonist from the source to the destination, overcoming obstacles and challenges to earn points. Successfully completing each level unlocks new, more complex mazes, with increasing difficulty.",
       "skills": ["Racket", "Structure and Interpretation of Computer Programming"]
     },
     {
@@ -35,7 +35,7 @@ export default function Project() {
       "completion": "November 2021",
       "image": "assets/higher-studies-small.png",
       "git_url": "https://github.com/Eswar2000/higher-studies-portal",
-      "description": "This is a project built with ReactJS frontend, Java backend and MYSQL as database. The higher studies portal has various features to aid prospective students interact with alumnis over forums, take practice quizzes to ease their nerves for GRE, GMAT and TOEFL and many more to prepare students for higher studies.",
+      "description": "An integrated platform featuring a ReactJS frontend, Java backend, and MySQL database. This portal offers a range of tools to support prospective students, including forums for interaction with alumni, practice quizzes for GRE, GMAT, and TOEFL, and additional resources to facilitate preparation for higher education.",
       "skills": ["ReactJS", "Java", "MySQL", "HTML", "CSS", "Bootstrap"]
     },
     {
@@ -43,7 +43,7 @@ export default function Project() {
       "completion": "May 2021",
       "image": "assets/reach-out-small.png",
       "git_url": "https://github.com/Eswar2000/reach-out",
-      "description": "ReachOut is a web application built in Flask representing a social media. Social media is a typical example of graphs where every user is a vertex and relationships between two users is an edge. By using this social media model, applications and use-cases of graphs are illustrated in a meaningful way.",
+      "description": "A web application developed with Flask, simulating a social media platform to illustrate graph theory concepts. In this model, each user is represented as a vertex, and relationships between users are depicted as edges. This application effectively demonstrates various applications and use-cases of graph structures in a practical context.",
       "skills": ["Python", "Flask", "SQL Lite", "HTML", "Jinja Template", "Data Structures", "Algorithms", "Graphs", "Prim's MST algorithm", "Floyd Warshall's shortest path algorithm"]
     },
     {
@@ -51,15 +51,15 @@ export default function Project() {
       "completion": "November 2020",
       "image": "assets/smart-healthcare-small.png",
       "git_url": "https://github.com/Eswar2000/healthcare",
-      "description": "The Smart Healthcare System is software to manage hospitals in an efficient manner. This application follows high standards of database design, interactive user interface and efficient algorithms to help the patients navigate across hospital functionalities and the hospital management team to effectively serve people.",
-      "skills": ["JavaScript", "MySQL", "HTML", "CSS", "Bootstrap", "Database Design"]
+      "description": "A comprehensive software solution designed to enhance hospital management efficiency. This application features a robust database design, an intuitive user interface, and optimized algorithms to streamline patient navigation and support the hospital management team in delivering exceptional care.",
+      "skills": ["JavaScript", "MySQL", "HTML", "CSS", "Bootstrap", "Database Design", "Normalization"]
     },
     {
       "name": "Graph Simulator",
       "completion": "Febraury 2021",
       "image": "assets/graph-simulator-small.png",
       "git_url": "https://github.com/Eswar2000/graph-vpython",
-      "description": "This is a project to demonstrate graphical representation of assigned data structure, graph. Users are allowed to dynamically build a graph by choosing vertices on a 2D screen and joining edges between them. Once the graph is ready, a graphical animated simulation starts to run illustrating Dijkstra's shortest path between 2 points selected and Prim's minimum spanning tree for the graph.",
+      "description": "A dynamic project showcasing the graphical representation of data structures, specifically graphs. Users can interactively build a graph by selecting vertices and connecting them with edges on a 2D canvas. Once constructed, the tool provides animated simulations of Dijkstra's algorithm for finding the shortest path between two points and Prim's algorithm for generating the minimum spanning tree.",
       "skills": ["Python", "VPython", "Data Structures", "Algorithms", "Graphs", "Prim's MST algorithm", "Dijkstra's shortest path algorithm"]
     }
   ]

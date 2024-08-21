@@ -16,13 +16,13 @@ export default function Merits() {
             {
                 "id": 1,
                 "title": "Passed with Distinction",
-                "message": "in Bachelor's of Technology in Computer Science",
+                "message": "Bachelor's of Technology in Computer Science",
                 "image": "assets/academic-award.jpg"
             },
             {
                 "id": 2,
                 "title": "6th rank in CS bachelor's",
-                "message": "top 2% in the department",
+                "message": "Top 2% in the department",
                 "image": "assets/academic-award.jpg"
             },
             {
@@ -128,7 +128,7 @@ export default function Merits() {
             {
                 "id": 6,
                 "title": "Plastic Collection Awareness Program",
-                "message": "Procured plastic waste across various parts of Hosur",
+                "message": "Procured plastic waste across various parts of Hosur for recycling",
                 "image": "assets/community-award.jpg"
             }
         ];
@@ -234,7 +234,7 @@ export default function Merits() {
                     awardData && awardData.map((award, ind) => {
                         return (
                             <div className="merit-item" key={ind}>
-                                <img src={award.image} alt={award.title} />
+                                <img className='merit-type-image' src={award.image} alt={award.title} />
                                 <div className="merit-message">
                                     <h3>{award.title}</h3>
                                     <p>{award.message}</p>
