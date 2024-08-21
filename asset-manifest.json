@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "./static/css/main.799e63ac.css",
-    "main.js": "./static/js/main.1615ba2d.js",
-    "static/media/Eswar_Casual_2.jpg": "./static/media/Eswar_Casual_2.83c841ca32cd590c2537.jpg",
-    "static/media/Eswar_Casual.jpg": "./static/media/Eswar_Casual.7c6f6a021c50890c9dae.jpg",
-    "index.html": "./index.html",
-    "main.799e63ac.css.map": "./static/css/main.799e63ac.css.map",
-    "main.1615ba2d.js.map": "./static/js/main.1615ba2d.js.map"
+    "main.css": "/static/css/main.9dd73a28.css",
+    "main.js": "/static/js/main.18c3e640.js",
+    "static/media/Eswar_Casual_2.jpg": "/static/media/Eswar_Casual_2.83c841ca32cd590c2537.jpg",
+    "static/media/Eswar_Casual.jpg": "/static/media/Eswar_Casual.7c6f6a021c50890c9dae.jpg",
+    "index.html": "/index.html",
+    "main.9dd73a28.css.map": "/static/css/main.9dd73a28.css.map",
+    "main.18c3e640.js.map": "/static/js/main.18c3e640.js.map"
   },
   "entrypoints": [
-    "static/css/main.799e63ac.css",
-    "static/js/main.1615ba2d.js"
+    "static/css/main.9dd73a28.css",
+    "static/js/main.18c3e640.js"
   ]
 }
