@@ -9,7 +9,7 @@ export default function Topbar() {
             </div>
             <div className="right">
                 <a href='/' className='nav-head'>Home</a>
-                <a href='/about' className='nav-head'>About</a>
+                <a href='/#/about' className='nav-head'>About</a>
             </div>
         </div>
     </div>

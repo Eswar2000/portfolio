@@ -1,4 +1,4 @@
-import {BrowserRouter, Routes, Route} from 'react-router-dom';
+import {HashRouter, Routes, Route} from 'react-router-dom';
 import './app.scss';
 import Topbar from './components/topbar/Topbar';
 import Home from './components/home/Home';
@@ -8,12 +8,12 @@ function App() {
   return (
     <div className="app">
       <Topbar />
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
           <Route path='/' element={<Home />}/>
           <Route path='/about' element={<About />}/>
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
