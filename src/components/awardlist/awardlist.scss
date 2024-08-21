@@ -1,9 +1,17 @@
+@import '../../global.scss';
+
 .merit-item {
     margin-left: 50px;
     font-size: 16px;
     font-family: "Poppins", sans-serif;
     padding: 7px;
     cursor: pointer;
+
+    @include mobile {
+        margin-left: 10px;
+        font-size: 14px;
+        padding: 2px 7px;
+    }
 
     &.active {
         background-color: #0B132B;

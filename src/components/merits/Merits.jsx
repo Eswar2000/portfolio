@@ -136,7 +136,7 @@ export default function Merits() {
             {
                 "id": 1,
                 "title": "Connected Recognition, ChatOps Engine",
-                "message": "Recognized efforts for R&D on Github, Webex, Prometheus integrations with ChatOps engine",
+                "message": "R&D on Github, Webex, Prometheus integrations with ChatOps engine",
                 "image": "assets/standard-award.jpg"
             },
             {
