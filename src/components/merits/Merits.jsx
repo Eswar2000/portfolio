@@ -225,7 +225,9 @@ export default function Merits() {
             <ul>
                 {
                     award_list && award_list.map((award) => {
-                        return <Awardlist title={award} active={selected === award} setSelected={setSelected} />
+                        return (
+                            <Awardlist title={award} active={selected === award} setSelected={setSelected}/>
+                        )
                     })
                 }
             </ul>

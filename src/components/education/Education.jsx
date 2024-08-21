@@ -45,7 +45,7 @@ export default function Education() {
           {
             education_list && education_list.map(edu => {
               return (
-                <div className="edu-card">
+                <div className="edu-card" key={edu.id}>
                   <div className="top">
                     <img className='university-img' src={edu.univerisity_logo} alt={edu.univerisity_name}/>
                     <h2 className='university-head'>{edu.university_name}</h2>
@@ -54,9 +54,9 @@ export default function Education() {
                     <h2 className='edu-degree'>{edu.university_degree}</h2>
                     <ul className='edu-info'>
                       {
-                        edu.messages && edu.messages.map(msg => {
+                        edu.messages && edu.messages.map((msg, ind) => {
                           return (
-                            <li className='edu-item'>{msg}</li>
+                            <li className='edu-item' key={ind}>{msg}</li>
                           )
                         })
                       }
