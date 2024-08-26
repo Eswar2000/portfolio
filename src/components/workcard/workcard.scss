@@ -2,7 +2,7 @@
 
 .work-card {
     display: flex;
-    width: 1400px;
+    width: 97vw;
     height: 180px;
     margin: 5px;
     background-color: #0B132B;
@@ -14,18 +14,34 @@
         margin: 2px;
     }
 
+    @include ipads {
+        width: 97vw;
+        margin: 2px;
+    }
+
     .left-container {
         flex: 0.25;
+
+        @include ipads {
+            flex: 3;
+        }
 
         .work-img {
             height: 160px;
             width: 300px;
             margin: 8px 10px;
-            border-radius: 25px;
+            border-radius: 50%;
 
             @include mobile {
                 height: 150px;
                 width: 70px;
+                border-radius: 50%;
+                margin: 5px;
+            }
+
+            @include ipads {
+                height: 150px;
+                width: 180px;
                 border-radius: 50%;
                 margin: 5px;
             }
@@ -37,9 +53,17 @@
         font-family: "Poppins", sans-serif;
         display: relative;
 
+        @include ipads {
+            flex: 9;
+        }
+
         .work-head {
             margin-top: 8px;
             @include mobile {
+                margin-top: 5px;
+            }
+
+            @include ipads {
                 margin-top: 5px;
             }
 
@@ -54,6 +78,11 @@
                     position: absolute;
                 }
 
+                @include ipads {
+                    font-size: 15px;
+                    // margin-left: 8px;
+                }
+
                 span {
                     margin-left: 10px;
                     font-size: 14px;
@@ -64,6 +93,11 @@
                         display: block;
                         font-size: 10px;
                         margin-left: 0;
+                    }
+
+                    @include ipads {
+                        font-size: 12px;
+                        margin-left: 8px;
                     }
                 }
             }
@@ -77,6 +111,12 @@
                 height: 70%;
             }
 
+            @include ipads {
+                margin-top: 6px;
+                width: 100%;
+                height: 70%;
+            }
+
             ul {
                 .work-item {
                     color: white;
@@ -85,6 +125,10 @@
 
                     @include mobile {
                         font-size: 10px;
+                    }
+
+                    @include ipads {
+                        font-size: 12px;
                     }
                 }
 
@@ -96,6 +140,11 @@
                     @include mobile {
                         font-size: 10px;
                         padding: 5px;
+                    }
+
+                    @include ipads {
+                        font-size: 12px;
+                        padding: 6px;
                     }
                 }
             }

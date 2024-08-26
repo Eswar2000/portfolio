@@ -15,6 +15,11 @@
         flex-direction: row;
     }
 
+    @include ipads {
+        height: 450px;
+        width: 350px;
+    }
+
     .skill-head-container {
         flex: 0.3;
         display: flex;
@@ -31,6 +36,10 @@
 
             @include mobile {
                 font-size: 15px;
+            }
+
+            @include ipads {
+                font-size: 30px;
             }
         }
     }
@@ -49,6 +58,10 @@
                 margin: 3px;
             }
 
+            @include ipads {
+                margin: 3px 6px;
+            }
+
             .skill-img {
                 width: 60px;
                 height: 80px;
@@ -58,6 +71,12 @@
                 @include mobile {
                     width: 42px;
                     height: 42px;
+                    margin: 0;
+                }
+
+                @include ipads {
+                    width: 47px;
+                    height: 47px;
                     margin: 0;
                 }
             }
@@ -70,6 +89,10 @@
 
                 @include mobile {
                     display: none;
+                }
+
+                @include ipads {
+                    font-size: 10px;
                 }
             }
             

@@ -14,6 +14,10 @@
         @include mobile {
             font-size: 20px;
         }
+
+        @include ipads {
+            font-size: 30px;
+        }
     }
 
     .skills-container {
