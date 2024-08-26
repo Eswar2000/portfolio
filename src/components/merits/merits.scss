@@ -18,6 +18,11 @@
             font-size: 20px;
             margin-bottom: 5px;
         }
+
+        @include ipads {
+            font-size: 30px;
+            margin-bottom: 10px;
+        }
     }
 
     ul {
@@ -30,6 +35,10 @@
             margin-bottom: 10px;
             flex-wrap: wrap;
             justify-content: center;
+        }
+
+        @include ipads {
+            margin: 5px;
         }
     }
 
@@ -62,6 +71,11 @@
                 width: 130px;
                 height: 100px;
             }
+
+            @include ipads {
+                width: 160px;
+                height: 120px;
+            }
             
             .merit-message {
                 display: flex;
@@ -83,6 +97,11 @@
                         font-size: 15px;
                         margin-bottom: 2px;
                     }
+
+                    @include ipads {
+                        font-size: 16px;
+                        margin-bottom: 4px;
+                    }
                 }
     
                 p {
@@ -94,6 +113,10 @@
 
                     @include mobile {
                         font-size: 12px;
+                        margin: 2px;
+                    }
+
+                    @include ipads {
                         margin: 2px;
                     }
                 }

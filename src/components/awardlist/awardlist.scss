@@ -13,10 +13,15 @@
         padding: 2px 7px;
     }
 
+    @include ipads {
+        margin-left: 25px;
+        font-size: 15px;
+        padding: 7px;
+    }
+
     &.active {
         background-color: #0B132B;
         color: white;
         border-radius: 10px;
-        
     }
 }
