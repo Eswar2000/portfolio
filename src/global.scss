@@ -1,7 +1,15 @@
-$width: 768px;
+$mobile_max_width: 768px;
+$medium_min_width: 769px;
+$medium_max_width: 1100px;
 
 @mixin mobile {
-    @media (max-width: #{$width}) {
-        @content
+    @media (max-width: #{$mobile_max_width}) {
+        @content;
+    }
+}
+
+@mixin ipads {
+    @media (min-width: #{$medium_min_width}) and (max-width: #{$medium_max_width}) {
+        @content;
     }
 }
