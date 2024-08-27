@@ -1,6 +1,8 @@
 $mobile_max_width: 768px;
 $medium_min_width: 769px;
 $medium_max_width: 1100px;
+$moderate_min_width: 1101px;
+$moderate_max_width: 1300px;
 
 @mixin mobile {
     @media (max-width: #{$mobile_max_width}) {
@@ -10,6 +12,12 @@ $medium_max_width: 1100px;
 
 @mixin ipads {
     @media (min-width: #{$medium_min_width}) and (max-width: #{$medium_max_width}) {
+        @content;
+    }
+}
+
+@mixin thinkpads {
+    @media (min-width: #{$moderate_min_width}) and (max-width: #{$moderate_max_width}) {
         @content;
     }
 }

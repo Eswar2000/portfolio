@@ -32,6 +32,11 @@
                 height: 450px;
                 width: 450px;
             }
+
+            @include thinkpads {
+                height: 500px;
+                width: 500px;
+            }
         }
 
         @keyframes blob {
@@ -76,6 +81,10 @@
                 @include ipads {
                     font-size: 75px;
                 }
+
+                @include thinkpads {
+                    font-size: 75px;
+                }
             }
 
             h2 {
@@ -88,6 +97,10 @@
 
                 @include ipads {
                     font-size: 30px;
+                }
+
+                @include thinkpads {
+                    font-size: 35px;
                 }
                 
                 #activity-banner {
