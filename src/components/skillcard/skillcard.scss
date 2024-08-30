@@ -41,6 +41,10 @@
             @include ipads {
                 font-size: 30px;
             }
+
+            @include thinkpads {
+                font-size: 35px;
+            }
         }
     }
 
@@ -52,13 +56,21 @@
         
         .skill-image {
             margin: 7px 12px;
-            display: inline-block;
+            display: inline-flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
 
             @include mobile {
                 margin: 3px;
             }
 
             @include ipads {
+                margin: 3px 6px;
+            }
+
+            @include thinkpads {
                 margin: 3px 6px;
             }
 
@@ -79,6 +91,12 @@
                     height: 47px;
                     margin: 0;
                 }
+
+                @include thinkpads {
+                    width: 60px;
+                    height: 60px;
+                    margin: 0;
+                }
             }
 
             h3 {
@@ -93,6 +111,10 @@
 
                 @include ipads {
                     font-size: 10px;
+                }
+
+                @include thinkpads {
+                    font-size: 13px;
                 }
             }
             
