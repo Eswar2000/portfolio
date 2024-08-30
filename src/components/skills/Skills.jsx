@@ -6,6 +6,7 @@ export default function Skills() {
   const programming_languages = [
     {"image": "assets/c-logo.png", "name": "C"},
     {"image": "assets/cpp-logo.png", "name": "C++"},
+    {"image": "assets/csharp-logo.jpg", "name": "C#"},
     {"image": "assets/python-logo.png", "name": "Python"},
     {"image": "assets/java-logo.png", "name": "Java"},
     {"image": "assets/javascript-logo.jpg", "name": "JavaScript"}
@@ -14,11 +15,12 @@ export default function Skills() {
   const web_development = [
     {"image": "assets/html-logo.jpg", "name": "HTML"},
     {"image": "assets/css-logo.jpg", "name": "CSS"},
-    {"image": "assets/react-logo.png", "name": "ReactJS"},
-    {"image": "assets/node-logo.jpg", "name": "NodeJS"},
+    {"image": "assets/react-logo.png", "name": "React"},
+    {"image": "assets/node-logo.jpg", "name": "Node"},
     {"image": "assets/sass-logo.jpg", "name": "Sass"},
     {"image": "assets/django-logo.jpg", "name": "Django"},
-    {"image": "assets/express-logo.png", "name": "ExpressJS"}
+    {"image": "assets/express-logo.png", "name": "Express"},
+    {"image": "assets/angular-logo.jpg", "name": "Angular"}
   ]
 
   const database = [
