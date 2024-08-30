@@ -19,6 +19,10 @@
         @include ipads {
             font-size: 30px;
         }
+
+        @include thinkpads {
+            font-size: 35px;
+        }
     }
 
     .experience-container {

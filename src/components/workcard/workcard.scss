@@ -15,11 +15,17 @@
     }
 
     @include ipads {
-        width: 97vw;
+        margin: 2px;
+    }
+
+    @include thinkpads {
         margin: 2px;
     }
 
     .left-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         flex: 0.25;
 
         @include ipads {
@@ -80,7 +86,6 @@
 
                 @include ipads {
                     font-size: 15px;
-                    // margin-left: 8px;
                 }
 
                 span {
