@@ -1,3 +1,4 @@
+$mobile_max_height: 650px;
 $mobile_max_width: 768px;
 $medium_min_width: 769px;
 $medium_max_width: 1100px;
@@ -5,7 +6,7 @@ $moderate_min_width: 1101px;
 $moderate_max_width: 1300px;
 
 @mixin mobile {
-    @media (max-width: #{$mobile_max_width}) {
+    @media (max-width: #{$mobile_max_width}) or (max-height: #{$mobile_max_height}) {
         @content;
     }
 }

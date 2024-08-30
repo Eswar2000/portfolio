@@ -24,6 +24,10 @@
             font-size: 30px;
             top: 10px;
         }
+
+        @include thinkpads {
+            font-size: 35px;
+        }
     }
 
     .slider {
@@ -275,7 +279,11 @@
         }
 
         @include ipads {
-            height: 60px;
+            height: 40px;
+        }
+
+        @include thinkpads {
+            height: 40px;
         }
 
         &.left {
@@ -289,6 +297,10 @@
             @include ipads {
                 left: 6px;
             }
+
+            @include thinkpads {
+                left: 10px;
+            }
         }
 
         &.right {
@@ -300,6 +312,10 @@
 
             @include ipads {
                 right: 6px;
+            }
+
+            @include thinkpads {
+                right: 10px;
             }
         }
     }
