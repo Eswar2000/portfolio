@@ -2,8 +2,8 @@
 
 .contact {
     display: flex;
-    // align-items: center;
-    // justify-content: center;
+    align-items: center;
+    justify-content: center;
 
     @include mobile {
         flex-direction: column;
@@ -33,6 +33,11 @@
             @include ipads {
                 height: 400px;
                 width: 500px;
+            }
+
+            @include thinkpads {
+                height: 500px;
+                width: 600px;
             }
         }
     }
@@ -67,6 +72,10 @@
             @include ipads {
                 font-size: 30px;
             }
+
+            @include thinkpads {
+                font-size: 35px;
+            }
         }
 
         form {
@@ -76,6 +85,7 @@
             flex-direction: column;
             justify-content: space-around;
             align-items: center;
+            gap: 10px;
 
             input {
                 width: 300px;
