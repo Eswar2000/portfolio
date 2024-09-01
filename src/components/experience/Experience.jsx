@@ -27,7 +27,7 @@ export default function Experience() {
     <div id='experience' className='experience'>
       <h2 className='section-header'>Experience</h2>
       <div className="experience-container">
-        <Workcard company={"Cisco Systems"} role={"Software Consulting Engineer II"} duration={"August 2022 - Present"} image_path={"assets/cisco-logo.png"} work_list={cisco_ft}/>
+        <Workcard company={"Cisco Systems"} role={"Software Consulting Engineer"} duration={"August 2022 - Present"} image_path={"assets/cisco-logo.png"} work_list={cisco_ft}/>
         <Workcard company={"Cisco Systems"} role={"Technical Undergraduate Intern"} duration={"January 2022 - June 2022"} image_path={"assets/cisco-logo.png"} work_list={cisco_intern}/>
         <Workcard company={"Titan Engineering and Automation Limited"} role={"Intern"} duration={"December 2019 - January 2020"} image_path={"assets/teal-logo.jpg"} work_list={teal_intern}/>
       </div>

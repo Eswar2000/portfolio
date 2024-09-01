@@ -168,12 +168,12 @@ export default function Merits() {
             {
                 "id": 1,
                 "title": "Cisco Certified Network Associate",
-                "message": "Expires 17th Febraury, 2025",
+                "message": "Expires 23rd July, 2025",
                 "image": "assets/certificate-award.jpg"
             },
             {
                 "id": 2,
-                "title": "Cisco Certified Developer Networking Associate",
+                "title": "Cisco Certified DevNet Associate",
                 "message": "Expires 23rd July, 2025",
                 "image": "assets/certificate-award.jpg"
             },
@@ -186,7 +186,7 @@ export default function Merits() {
             {
                 "id": 4,
                 "title": "AWS Certified Cloud Practitioner",
-                "message": "Expired. Renewed through earning higher grade AWS certificate",
+                "message": "Renewed through earning higher grade AWS certificate",
                 "image": "assets/certificate-award.jpg"
             },
             {
