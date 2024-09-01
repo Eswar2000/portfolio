@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.4f807190.css",
-    "main.js": "/portfolio/static/js/main.90a48386.js",
+    "main.js": "/portfolio/static/js/main.1fb9f94a.js",
     "static/media/Eswar_Casual_2.jpg": "/portfolio/static/media/Eswar_Casual_2.83c841ca32cd590c2537.jpg",
     "static/media/Eswar_Casual.jpg": "/portfolio/static/media/Eswar_Casual.7c6f6a021c50890c9dae.jpg",
     "index.html": "/portfolio/index.html",
     "main.4f807190.css.map": "/portfolio/static/css/main.4f807190.css.map",
-    "main.90a48386.js.map": "/portfolio/static/js/main.90a48386.js.map"
+    "main.1fb9f94a.js.map": "/portfolio/static/js/main.1fb9f94a.js.map"
   },
   "entrypoints": [
     "static/css/main.4f807190.css",
-    "static/js/main.90a48386.js"
+    "static/js/main.1fb9f94a.js"
   ]
 }
