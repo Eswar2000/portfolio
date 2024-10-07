@@ -47,7 +47,7 @@ export default function Merits() {
         const extra_curricular_list = [
             {
                 "id": 1,
-                "title": "School Criket Team",
+                "title": "School Cricket Team",
                 "message": "Participation in inter-school tournaments",
                 "image": "assets/participation-award.jpg"
             },
@@ -129,6 +129,12 @@ export default function Merits() {
                 "id": 6,
                 "title": "Plastic Collection Awareness Program",
                 "message": "Procured plastic waste across various parts of Hosur for recycling",
+                "image": "assets/community-award.jpg"
+            },
+            {
+                "id": 7,
+                "title": "Amrita Live-in-Labs Program",
+                "message": "UNESCO recognized program to conceptualize sustainable solutions for rural communities",
                 "image": "assets/community-award.jpg"
             }
         ];
