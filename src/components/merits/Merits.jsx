@@ -36,12 +36,6 @@ export default function Merits() {
                 "title": "329th place out of 7000 participants worldwide",
                 "message": "Amazon Splash ML Hackathon",
                 "image": "assets/participation-award.jpg"
-            },
-            {
-                "id": 5,
-                "title": "Participation in Live in labs course",
-                "message": "Exposure of youth to problems faced by rural parts of India",
-                "image": "assets/community-award.jpg"
             }
         ];
         const extra_curricular_list = [
